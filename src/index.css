@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card {
+  transform: rotateY(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: rotateY(10deg);
+}
